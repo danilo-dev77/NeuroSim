@@ -1,0 +1,17 @@
+
+{
+  "título": "Crise epiléptica generalizada",
+  "descrição": "Homem de 28 anos, trazido ao PS após crise tônico-clônica generalizada presenciada. No momento está sonolento, ventila espontaneamente, sem sinais de trauma. Sem história conhecida de epilepsia.",
+  "ações essenciais": ["Glicemia capilar", "Monitorização", "Proteção de vias aéreas"],
+  "ações bônus": ["Acesso venoso", "ECG"],
+  "ações prejudiciais": ["Furosemida", "Sedação profunda"],
+  "restrições de ordem": [
+    {
+      "ação": "Intubação",
+      "somente após": ["Glicemia capilar", "Proteção de vias aéreas"],
+      "penalidade": -5
+    }
+  ],
+  "diagnóstico principal": "Crise epiléptica generalizada",
+  "diferenciais corretos": ["AVC", "Hipoglicemia", "Tumor cerebral"]
+}
