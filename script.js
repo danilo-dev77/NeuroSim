@@ -148,4 +148,4 @@ function finalizarCaso() {
   alert("Caso finalizado! Em breve: seleção de diagnóstico e diferenciais.");
 }
 
-carregarCaso("Cases/caso1.json");
+carregarCaso("caso1.json");
